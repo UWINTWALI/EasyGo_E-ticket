@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --color-success: green;
+  --dark-blue: #2c3e50;
+  --light-black: #333;
+  --background-color: #f4f4f4;
+  --transition-effect: 0.2s ease-in-out;
+  --border: 1px solid rgb(198, 201, 205);
+  --white_1: #f4f4f4;
+  --dark-white-bg: #eaeaea;    /* A light shade of gray */
+    --darker-white-bg: #dcdcdc;    /* A slightly darker shade of gray */
+    --light-black-bg: rgb(28, 28, 28);    /* A very dark gray, close to black */
+  --font-family: 'Montserrat', sans-serif;
+  --font-size: 16px;
+  /* Base font size */
+}
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+}
+.button-book {
+  width: 30rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--white_1);
+  background-color: #000;
+  transition: var(--transition-effect);
+}
+select,
+input[type='date'],
+input[type='text'] {
+  margin: 0;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid rgb(198, 201, 205);
+}
+.book-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+}
+#Service-content {
+  background-color: var(--darker-white-bg);
+}
+.service-details {
+  display: flex;
+}
+.service-details:nth-child(1) {
+  margin-top: 7rem;
+}
+.service-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white_1);
+  height: 250px;
+  margin: 0.2rem;
+  padding: 20px;
+  border: var(--border);
+}
+.width-65 {
+  width: 65%;
+}
+.width-35 {
+  width: 35%;
+}
+.service-detail-img-1{
+  background-image: url(/resources/images/book_online.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.service-detail-img-2 {
+    background-image: url(/resources/images/real_time_update.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-detail-img-3 {
+    background-image: url(/resources/images/secure_payment.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.service-detail-img-4 {
+    background-image: url(/resources/images/customer-support.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

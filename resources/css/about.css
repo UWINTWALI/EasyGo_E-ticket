@@ -1,0 +1,60 @@
+/* Global Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --color-success: green;
+    --dark-blue: #2c3e50;
+    --light-black: #333;
+    --background-color: #f4f4f4;
+    --transition-effect: 0.2s ease-in-out;
+    --border: 1px solid rgb(198, 201, 205);
+    --white_1: #f4f4f4;
+    --font-family: 'Montserrat', sans-serif;
+    --font-size: 16px;
+    /* Base font size */
+}
+.about-transport{
+    padding: 2rem;
+    border: var(--border);
+    opacity: .9;
+    
+}
+.about-team-container{
+    width: 100%;
+    padding: 4rem;
+}
+.about-team-text,
+.product-text,
+.about-transport-text{
+    width: 43.75rem;
+    margin: 0;
+    text-align: left;
+    margin-left: 2rem;
+}
+.about-transport-box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-section-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+.contact-info p{
+    margin: 0;
+    line-height:  1px;
+}
+.contact-form-contact{
+    width: 350px;
+}
+.contact-info-contact{
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 2rem;
+}
