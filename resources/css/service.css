@@ -69,25 +69,25 @@ input[type='text'] {
   width: 35%;
 }
 .service-detail-img-1{
-  background-image: url(/resources/images/book_online.jpeg);
+  background-image: url(../images/book_online.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .service-detail-img-2 {
-    background-image: url(/resources/images/real_time_update.jpeg);
+    background-image: url(../images/real_time_update.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .service-detail-img-3 {
-    background-image: url(/resources/images/secure_payment.jpeg);
+    background-image: url(../images/secure_payment.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .service-detail-img-4 {
-    background-image: url(/resources/images/customer-support.jpeg);
+    background-image: url(../images/customer-support.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

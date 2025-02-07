@@ -176,7 +176,7 @@ header h2 {
   justify-content: center;
   align-items: center;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
-  background-image: url('/resources/images/my_bus.jpg');
+  background-image: url('../images/my_bus.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -541,7 +541,7 @@ h3 {
     width: 14px;
     height: 14px;
     background: transparent 0 0 no-repeat;
-    background-image: url(/resources/images/twitter.svg);
+    background-image: url(../images/twitter.svg);
 }
 .footer-icons .save {
     background-color: var(--color-success);
@@ -612,7 +612,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('/resources/images/passensers_2.jpg');
+    background-image: url('../images/passensers_2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
